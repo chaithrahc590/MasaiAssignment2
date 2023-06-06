@@ -1,0 +1,35 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .movie {
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .movie h3 {
+    margin-top: 10px;
+  }
+  
